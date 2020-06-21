@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_search"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:iconTint="@color/dark_text_subtitle"/>
+    <item
+        android:id="@+id/action_favorite"
+        android:title="@string/favorite"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_setting"
+        android:title="@string/setting"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string-array name="movie_title">
+        <item>A Start Is Born</item>
+        <item>Aquaman</item>
+        <item>Avengers: Infinity War</item>
+        <item>Bird Box</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Bubmlebee</item>
+        <item>Creed II</item>
+        <item>Once Upon a Deadpool</item>
+        <item>How to Train Your Dragon: The Hidden World</item>
+        <item>Dragon Ball Super: Broly</item>
+        <item>Glass</item>
+        <item>Hunter Killer</item>
+        <item>Mary Poppins Returns</item>
+        <item>Mortal Engines</item>
+        <item>Preman Pensiun</item>
+    </string-array>
+    <string-array name="movie_description">
+        <item>Seasoned musician Jackson Maine discovers - and falls in love with - struggling artist Ally. She has just about given up on her dream to make it big as a singer - until Jack coaxes her into the spotlight. But even as Ally\'s career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.</item>
+        <item>Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm\'s half-human, half-Atlantean brother and true heir to the throne.</item>
+        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</item>
+        <item>Five years after an ominous unseen presence drives most of society to suicide, a survivor and her two children make a desperate bid to reach safety.</item>
+        <item>Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock \'n\' roll band Queen in 1970. Hit songs become instant classics. When Mercury\'s increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.</item>
+        <item>On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken. When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.</item>
+        <item>Between personal obligations and training for his next big fight against an opponent with ties to his family\'s past, Adonis Creed is up against the challenge of his life.</item>
+        <item>A kidnapped Fred Savage is forced to endure Deadpool\'s PG-13 rendition of Deadpool 2 as a Princess Bride-esque story that\'s full of magic, wonder &amp; zero F\'s.</item>
+        <item>As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.</item>
+        <item>Earth is peaceful following the Tournament of Power. Realizing that the universes still hold many more strong people yet to see, Goku spends all his days training to reach even greater heights. Then one day, Goku and Vegeta are faced by a Saiyan called \'Broly\' who they\'ve never seen before. The Saiyans were supposed to have been almost completely wiped out in the destruction of Planet Vegeta, so what\'s this one doing on Earth? This encounter between the three Saiyans who have followed completely different destinies turns into a stupendous battle, with even Frieza (back from Hell) getting caught up in the mix.</item>
+        <item>In a series of escalating encounters, former security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence of Elijah Price emerges as an orchestrator who holds secrets critical to both men.</item>
+        <item>Captain Glass of the USS Arkansas discovers that a coup d\'état is taking place in Russia, so he and his crew join an elite group working on the ground to prevent a war.</item>
+        <item>In Depression-era London, a now-grown Jane and Michael Banks, along with Michael\'s three children, are visited by the enigmatic Mary Poppins following a personal loss. Through her unique magical skills, and with the aid of her friend Jack, she helps the family rediscover the joy and wonder missing in their lives.</item>
+        <item>Many thousands of years in the future, Earth’s cities roam the globe on huge wheels, devouring each other in a struggle for ever diminishing resources. On one of these massive traction cities, the old London, Tom Natsworthy has an unexpected encounter with a mysterious young woman from the wastelands who will change the course of his life forever.</item>
+        <item>We don\'t have an overview translated in English. Help us expand our database by adding one.</item>
+    </string-array>
+    <array name="movie_poster">
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_dragonball</item>
+        <item>@drawable/poster_glass</item>
+        <item>@drawable/poster_hunterkiller</item>
+        <item>@drawable/poster_marrypopins</item>
+        <item>@drawable/poster_mortalengine</item>
+        <item>@drawable/poster_preman</item>
+    </array>
+    <string-array name="movie_crews">
+        <item>Bradley Cooper:Director,Screenplay;Will Fetters:Screenplay;Eric Roth:Screenplay;Robert Carson:Story;William A. Wellman:Story</item>
+        <item>James Wan:Director,Story;WillBeal:Screenplay,Story;Paul Noris:Characters;Mort Weisinger:Character;David Leslie Johnson-McGoldrick:Screenplay;Geoff Johns:Story</item>
+        <item>Joe Russo:Director;Anthony Russo:Director;Stephen McFeely:Screenplay;Christopher Markus:Screenplay</item>
+        <item>Susanne Bier:Director;Josh Malerman:Novel;Eric Heisserer:Screenplay</item>
+        <item>Anthony McCarten:Screenplay,Story;Bryan Singer:Director;Peter Morga:Story</item>
+        <item>Christina Hodson:Screenplay,Story;Travis Knight:Director</item>
+        <item>Sylvester Stallone:Characters,Screenplay;Steven cample Jr.:Director;Juel Taylor:Screenplay;Sascha Penn:Story;Cheo Hodari Coker;Story</item>
+        <item>David Leitch:Director;Paul Wernick:Writer;Ryan Reynolds:Writer;Rhett Reese:Writer</item>
+        <item>Dean DeBlois:Director,Screenplay,Story;Cressida Cowell:Nover</item>
+        <item>Akira Toriyaam:Caracters,Screenplay,Story;Tatsuya Nagamine:Director</item>
+        <item>M. Night Shyamalan:Director,Screenplay</item>
+        <item>Donovan Marsh:Director;DonKeith:Novel;George Wallace:Novel;Jamie Moss:Screenplay;Arne Schmidt:Screenplay</item>
+        <item>Rob Marshall:Director,Story;David Magee:Screenplay,Story;P.L. Travers:Novel;John Deluca:Story</item>
+        <item>Christian Rivers:Director;Philip Reeve:Novel;Philippa Boyens:Screenplay;Fran Walsh:Screenplay;Peter Jackson:Screenplay</item>
+        <item>Aris Nugraha:Director</item>
+    </string-array>
+    <string-array name="movie_score">
+        <item>75</item>
+        <item>68</item>
+        <item>83</item>
+        <item>70</item>
+        <item>81</item>
+        <item>65</item>
+        <item>67</item>
+        <item>69</item>
+        <item>76</item>
+        <item>74</item>
+        <item>65</item>
+        <item>63</item>
+        <item>66</item>
+        <item>60</item>
+        <item>66</item>
+    </string-array>
+    <string-array name="movie_status">
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+        <item>Released</item>
+    </string-array>
+    <string-array name="movie_release_information">
+        <item>Theatrical:05-10-2018:USA;Digital:15-01-2019:USA;Physical:19-02-2019:USA</item>
+        <item>Theatrical:21-12-2018:USA;Digital:05-03-2019:USA;Physical:26-03-2019:USA</item>
+        <item>Premiere:23-04-2018:USA;Theatrical:27-04-2018:USA;Digital:31-07-2019:USA;Physical:14-08-2019:USA</item>
+        <item>Premiere:12-11-2018:USA;Digital:21-12-2018:USA</item>
+        <item>Premiere:30-10-2018:USA;Theatrical:02-11-2018:USA;Physical:12-02-2019:USA</item>
+        <item>Theatrical:21-12-2018:USA;Physical:02-04-2019:USA</item>
+        <item>Premiere:14-11-2018:USA;Theatrical:21-11-2018:USA;Digital:17-05-2019:USA;Physical:05-03-2019:USA;Physical:17-05-2019:USA</item>
+        <item>Theatrical:11-12-2018:USA;Digital:15-01-2019:USA</item>
+        <item>Theatrical:22-02-2019:USA;Digital:07-05-2019:USA;Physical:21-05-2019:USA</item>
+        <item>Premiere:13-12-2018:USA;Theatrical(limited):16-01-2019:USA</item>
+        <item>Theatrical:18-01-2019:USA;Digital:02-04-2019:USA;Physical:16-04-2019:USA</item>
+        <item>Theatrical:26-10-2018:USA</item>
+        <item>Theatrical:14-12-2018:USA;Digital:19-02-2019:USA;Physical:12-03-2019:USA</item>
+        <item>Premiere:29-11-2018:USA;Theatrical:27-04-2018:USA;Digital:31-07-2019:USA;Physical:14-08-2019:USA</item>
+        <item>Theatrical:17-01-2019:IDN</item>
+    </string-array>
+    <string-array name="movie_original_language">
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>Japanese</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>Indonesian</item>
+    </string-array>
+    <string-array name="movie_runtime">
+        <item>2h 15m</item>
+        <item>2h 24m</item>
+        <item>2h 29m</item>
+        <item>2h 4m</item>
+        <item>2h 15m</item>
+        <item>1h 54m</item>
+        <item>2h 10m</item>
+        <item>1h 57m</item>
+        <item>1h 44m</item>
+        <item>1h 41m</item>
+        <item>2h 9m</item>
+        <item>2h 2m</item>
+        <item>2h 11m</item>
+        <item>2h 9m</item>
+        <item>2h 15m</item>
+    </string-array>
+    <string-array name="movie_budget">
+        <item>36000000</item>
+        <item>160000000</item>
+        <item>300000000</item>
+        <item>19800000</item>
+        <item>52000000</item>
+        <item>135000000</item>
+        <item>50000000</item>
+        <item>0</item>
+        <item>129000000</item>
+        <item>1000000</item>
+        <item>20000000</item>
+        <item>0</item>
+        <item>130000000</item>
+        <item>100000000</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="movie_revenue">
+        <item>433888866</item>
+        <item>1143689193</item>
+        <item>2046239637</item>
+        <item>0</item>
+        <item>835197710</item>
+        <item>465897025</item>
+        <item>137944327</item>
+        <item>0</item>
+        <item>517526875</item>
+        <item>114102821</item>
+        <item>246941965</item>
+        <item>0</item>
+        <item>348807090</item>
+        <item>104236467</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="movie_genre">
+        <item>Drama;Romance;Music</item>
+        <item>Action;Adventure;Fantasy</item>
+        <item>Adventure;Action;Fantasy</item>
+        <item>Thriller;Drama</item>
+        <item>Drama;Music</item>
+        <item>Action;Adventure;Science Fiction</item>
+        <item>Drama</item>
+        <item>Comedy;Action</item>
+        <item>Animation;Family;Adventure</item>
+        <item>Action;Animation;Fantasy;Adventure;Comedy;Science Fiction</item>
+        <item>Thriller;Drama;Science Fiction</item>
+        <item>Action;Thriller</item>
+        <item>Fantasy;Family;Comedy</item>
+        <item>Adventure;Fantasy</item>
+        <item>Comedy;Drama</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="label_overview">Overview</string>
+    <string name="label_featured_crew">Featured Crew</string>
+    <string name="label_runtime">Runtime</string>
+    <string name="label_original_language">Original Language</string>
+    <string name="label_release_information">Release Information</string>
+    <string name="label_budget">Budget</string>
+    <string name="label_revenue">Revenue</string>
+    <string name="label_release">Release</string>
+</resources>

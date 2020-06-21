@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Movie Mania</string>
+    <string name="imagePosterMovie">Movie poster</string>
+    <string name="backgroundMoviePoster">Background movie poster</string>
+    <string name="imagePosterTVShow">TV Show poster</string>
+    <string name="backgroundTVShowPoster">Background TV Show Poster</string>
+    <string name="hour">h </string>
+    <string name="minute">m</string>
+    <string-array name="tab_title">
+        <item>Movies</item>
+        <item>TV Shows</item>
+    </string-array>
+
+    <string name="movie_description">Description</string>
+    <string name="movie_status">Status</string>
+    <string name="movie_score">Score</string>
+    <string name="movie_language">Language</string>
+    <string name="movie_finance">Finance</string>
+    <string name="movie_budget">Budget</string>
+    <string name="movie_revenue">Revenue</string>
+    <string name="tvshow_episode">Episode</string>
+    <string name="tvshow_firstrelease">First Release Date</string>
+    <string name="tvshow_last_release">Last Air Date</string>
+    <string name="tvshow_number_of_seasons">Number of Seasons</string>
+    <string name="tvshow_number_of_episodes">Number of Episodes</string>
+</resources>

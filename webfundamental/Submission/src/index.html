@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Station</title>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <img src="assets/img/undraw_season_change_f99v.svg" class="banner-image" alt="weather-illustration">
+            <h1>Weather Station</h1>
+            <h2 id="clock">Friday, 00:00:00</h2>
+        </div>
+        <nav class="search">
+            <div class="search-nav">
+                <input type="text" name="search_input" class="search-input" id="input-search" placeholder="Cari berdasarkan kota"/>
+                <button class="search-button" id="button-search"><span><i class="fa fa-search"></i></span></button>
+            </div>
+            <div class="search-button-nav">
+                <button class="search-button text-large" id="button-search-modal"><span><i class="fa fa-search"></i></span> Search</button>
+            </div>
+
+            <!-- Search Modal -->
+            <div class="modal" id="search-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title">Silahkan cari disini</p>
+                        <button class="modal-close-button">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" name="search_input" id="input-search-modal" class="modal-search-input" placeholder="Cari berdasarkan kota"/>
+                        <button class="modal-search-button"><span><i class="fa fa-search"></i></span></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="menu">
+            <ul></ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <article class="profile card">
+                <header>
+                    <img src="assets/img/profile.png" class="profile-image" alt="profile-image">
+                    <h2>Hermansyah</h2>
+                    <h4>(Creator)</h4>
+                </header>
+            </article>
+        </aside>
+        <div class="content">
+            <area-list></area-list>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2020, Hermansyah</p>
+        <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>, <a href="https://www.undraw.co" title="Undraw">Undraw</a> and <a href="https://www.flatnesia.com/" title="Flatnesia"> Flatnesia</a></p>
+        <p>Data provided by <a href="https://data.bmkg.go.id/prakiraan-cuaca/">Badan Meteorologi, Klimatologi, dan Geofisika</a> </p>
+    </footer>
+</body>
+</html>

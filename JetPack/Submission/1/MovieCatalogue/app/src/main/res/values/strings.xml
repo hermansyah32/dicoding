@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string-array name="tab_title_discover">
+        <item>Discover Movies</item>
+        <item>Discover TV Shows</item>
+    </string-array>
+
+    <string name="text_overview">Overview</string>
+</resources>

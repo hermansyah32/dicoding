@@ -1,0 +1,27 @@
+node_modules/
+dist/
+package-lock.json
+
+# WebFundamental
+webfundamental/*
+!webfundamental/Submission*
+
+# web dasar
+webdasar/*
+!webdasar/Submission
+
+# pwa
+pwa/*
+!pwa/submission
+
+# MADE
+MADE/*
+!MADE/Submission
+
+# JetPack
+JetPack/*
+!JetPack/Submission
+
+#Android Pemula
+Android Pemula/*
+!Android Pemula/TemanBuku

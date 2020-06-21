@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string-array name="tab_title_discover">
+        <item>Discover Movies</item>
+        <item>Discover TV Shows</item>
+    </string-array>
+
+    <string name="text_overview">Overview</string>
+    <string name="background_image">Background Image</string>
+    <string name="poster_movie">Movie Poster</string>
+    <string name="poster_tvshow">TV Show Poster</string>
+    <string name="title_activity_favorite">FavoriteActivity</string>
+
+    <!--Dialog Section-->
+    <string name="dialog_title">Attention</string>
+    <string name="dialog_positiveButton">Yes</string>
+    <string name="dialog_negativeButton">No</string>
+    <string name="dialog_neutralButton">Cancel</string>
+    <string name="dialog_remove_favorite">Are you sure want to remove this item from your favorite list?</string>
+    <string name="action_favorite">Favorite List</string>
+    <string name="favorite_true">Item saved to favorite list</string>
+    <string name="favorite_false">Item removed from favorite list</string>
+</resources>

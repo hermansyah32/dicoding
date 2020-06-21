@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string-array name="tab_title_discover">
+        <item>Discover Movies</item>
+        <item>Discover TV Shows</item>
+    </string-array>
+
+    <string name="text_overview">Overview</string>
+    <string name="hour">h </string>
+    <string name="minute">m</string>
+    <string name="request_failed_load">Failed to load data from server</string>
+    <string name="background_image">Background Image</string>
+    <string name="poster_movie">Movie Poster</string>
+    <string name="poster_tvshow">TV Show Poster</string>
+</resources>

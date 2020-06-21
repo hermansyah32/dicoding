@@ -1,0 +1,10 @@
+/** Webpack */
+npm install webpack webpack-cli webpack-dev-server webpack-merge --save-dev
+/** Webpack Loader */
+npm install style-loader css-loader file-loader @babel/core babel-loader @babel/preset-env --save-dev
+/** Webpack Plugin */
+npm install html-webpack-plugin  copy-webpack-plugin webpack-assets-manifest --save-dev
+/** Utils */
+npm install moment regenerator-runtime --save
+/** Style and assets*/
+npm install materialize-css@next @fortawesome/fontawesome-free --save-dev

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Weather Station</title>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <img src="assets/img/undraw_season_change_f99v.svg" class="banner-image" alt="weather-illustration">
+            <h1>Weather Station</h1>
+            <h2 id="clock">Friday, 00:00:00</h2>
+        </div>
+        <nav class="search">
+            <div class="search-nav">
+                <form action="" method="get">
+                    <input type="text" name="search_input" class="search-input" placeholder="Cari berdasarkan kota"/>
+                </form>
+                <button class="search-button"><span><i class="fa fa-search"></i></span></button>
+            </div>
+            <div class="search-button-nav">
+                <button class="search-button" id="search_button"><span><i class="fa fa-search text-large"> Search</i></span></button>
+            </div>
+
+            <!-- Search Modal -->
+            <div class="modal" id="search-modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title">Silahkan cari disini</p>
+                        <button class="modal-close-button">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" method="get">
+                            <input type="text" name="search_input" class="modal-search-input" placeholder="Cari berdasarkan kota"/>
+                        </form>
+                        <button class="modal-search-button"><span><i class="fa fa-search"></i></span></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="menu">
+            <ul>
+                <li id="indonesia">Indonesia</li>
+                <li id="sumut">Sumatera Utara</li>
+                <li id="sumbar">Sumatera Barat</li>
+                <li id="sumbar">Sumatera Barat</li>
+                <li id="sumbar">Sumatera Barat</li>
+                <li id="sumbar">Sumatera Barat</li>
+                <li id="sumbar">Sumatera Barat</li>
+                <li id="sumbar">Sumatera Barat</li>
+                <li id="sumbar">Sumatera Barat</li>
+                <li id="sumbar">Sumatera Barat</li>
+                <li id="sumbar">Sumatera Barat</li>
+                <li id="sumbar">Sumatera Barat</li>
+                <li id="sumbar">Sumatera Barat</li>
+                <li id="sumbar">Sumatera Barat</li>
+                <li id="sumbar">Sumatera Barat</li>
+                <li id="sumbar">Sumatera Barat</li>
+                <li id="sumbar">Sumatera Selatan</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <article class="profile card">
+                <header>
+                    <img src="assets/img/profile.png" class="profile-image" alt="profile-image">
+                    <h2>Hermansyah</h2>
+                    <h4>(Creator)</h4>
+                </header>
+            </article>
+        </aside>
+        <div class="content">
+            <div class="area">
+                <h3>Banda Aceh</h3>
+                <div class="sub-area">
+                    <article class="area-card">
+                        <table style="border-collapse: collapse;" >
+                            <tr class="header">
+                                <td rowspan="5">
+                                    <img class="area-image" src="assets/img/landmark/aceh.svg" alt="sumbar-icon">
+                                </td>
+                                <td colspan="4">Kamis<br>26/06/2020</td>
+                                <td class="forecast-header" colspan="4">Jumat<br>27/06/2020</td>
+                                <td class="forecast-header" colspan="4">Sabtu<br>28/06/2020</td>
+                            </tr>
+                            <tr class="header">
+                                <td class="time-0"><p>00:00</p></td>
+                                <td class="time-6"><p>06:00</p></td>
+                                <td class="time-12"><p>12:00</p></td>
+                                <td class="time-18"><p>18:00</p></td>
+                                <td class="active-col"><p>00:00</p></td>
+                                <td class="inactive-col"><p>06:00</p></td>
+                                <td class="inactive-col"><p>12:00</p></td>
+                                <td class="inactive-col"><p>18:00</p></td>
+                                <td class="active-col"><p>00:00</p></td>
+                                <td class="inactive-col"><p>06:00</p></td>
+                                <td class="inactive-col"><p>12:00</p></td>
+                                <td class="inactive-col"><p>18:00</p></td>
+                            </tr>
+                            <tr>
+                                <td class="time-0"><p>Cerah</p></td>
+                                <td class="time-6"><p>Cerah</p></td>
+                                <td class="time-12"><p>Cerah</p></td>
+                                <td class="time-18"><p>Cerah</p></td>
+                                <td class="active-col"><p>Cerah</p></td>
+                                <td class="inactive-col"><p>Cerah</p></td>
+                                <td class="inactive-col"><p>Cerah</p></td>
+                                <td class="inactive-col"><p>Cerah</p></td>
+                                <td class="active-col"><p>Cerah</p></td>
+                                <td class="inactive-col"><p>Cerah</p></td>
+                                <td class="inactive-col"><p>Cerah</p></td>
+                                <td class="inactive-col"><p>Cerah</p></td>
+                            </tr>
+                            <tr>
+                                <td class="time-0"><p>33&deg;C</p></td>
+                                <td class="time-6"><p>33&deg;C</p></td>
+                                <td class="time-12"><p>33&deg;C</p></td>
+                                <td class="time-18"><p>33&deg;C</p></td>
+                                <td class="active-col"><p>33&deg;C</p></td>
+                                <td class="inactive-col"><p>33&deg;C</p></td>
+                                <td class="inactive-col"><p>33&deg;C</p></td>
+                                <td class="inactive-col"><p>33&deg;C</p></td>
+                                <td class="active-col"><p>33&deg;C</p></td>
+                                <td class="inactive-col"><p>33&deg;C</p></td>
+                                <td class="inactive-col"><p>33&deg;C</p></td>
+                                <td class="inactive-col"><p>33&deg;C</p></td>
+                            </tr>
+                            <tr>
+                                <td class="time-0"><p><img class="weather-icon" src="assets/img/weather/001-sunny.svg" alt="weather-illustration"/></p></td>
+                                <td class="time-6"><p><img class="weather-icon" src="assets/img/weather/001-sunny.svg" alt="weather-illustration"/></p></td>
+                                <td class="time-12"><p><img class="weather-icon" src="assets/img/weather/001-sunny.svg" alt="weather-illustration"/></p></td>
+                                <td class="time-18"><p><img class="weather-icon" src="assets/img/weather/001-sunny.svg" alt="weather-illustration"/></p></td>
+                                <td class="active-col"><p><img class="weather-icon" src="assets/img/weather/001-sunny.svg" alt="weather-illustration"/></p></td>
+                                <td class="inactive-col"><p><img class="weather-icon" src="assets/img/weather/001-sunny.svg" alt="weather-illustration"/></p></td>
+                                <td class="inactive-col"><p><img class="weather-icon" src="assets/img/weather/001-sunny.svg" alt="weather-illustration"/></p></td>
+                                <td class="inactive-col"><p><img class="weather-icon" src="assets/img/weather/001-sunny.svg" alt="weather-illustration"/></p></td>
+                                <td class="active-col"><p><img class="weather-icon" src="assets/img/weather/001-sunny.svg" alt="weather-illustration"/></p></td>
+                                <td class="inactive-col"><p><img class="weather-icon" src="assets/img/weather/001-sunny.svg" alt="weather-illustration"/></p></td>
+                                <td class="inactive-col"><p><img class="weather-icon" src="assets/img/weather/001-sunny.svg" alt="weather-illustration"/></p></td>
+                                <td class="inactive-col"><p><img class="weather-icon" src="assets/img/weather/001-sunny.svg" alt="weather-illustration"/></p></td>
+                            </tr>
+                        </table>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2020, Hermansyah</p>
+        <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>, <a href="https://www.undraw.co" title="Undraw">Undraw</a> and <a href="https://www.flatnesia.com/" title="Flatnesia"> Flatnesia</a></p>
+    </footer>
+</body>
+<script src="assets/app.js"></script>
+</html>

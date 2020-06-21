@@ -1,0 +1,44 @@
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Display">
+
+        <Preference
+            app:key="@string/language_key"
+            app:summary="@string/language_summary"
+            app:title="@string/language_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Notification">
+
+        <SwitchPreferenceCompat
+            app:key="@string/daily_notification_key"
+            app:title="@string/daily_notification_title"
+            app:summaryOn="@string/daily_notification_summaryOn"
+            app:summaryOff="@string/daily_notification_summaryOff"/>
+
+        <SwitchPreferenceCompat
+            app:key="@string/newest_notification_key"
+            app:title="@string/newest_notification_title"
+            app:summaryOn="@string/newest_notification_summaryOn"
+            app:summaryOff="@string/newest_notification_summaryOff"/>
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

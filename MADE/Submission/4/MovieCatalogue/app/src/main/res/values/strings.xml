@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <!--Lorem for preview only-->
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+    <!--String for localization-->
+    <string name="movie_description">Description</string>
+    <string name="movie_status">Status</string>
+    <string name="movie_score">Score</string>
+    <string name="movie_language">Language</string>
+    <string name="movie_finance">Finance</string>
+    <string name="movie_budget">Budget</string>
+    <string name="movie_revenue">Revenue</string>
+    <string name="language">Language</string>
+    <string name="tvshow_episode">Episode</string>
+    <string name="tvshow_firstrelease">First Release Date</string>
+    <string name="tvshow_last_release">Last Air Date</string>
+    <string name="tvshow_number_of_seasons">Number of Seasons</string>
+    <string name="tvshow_number_of_episodes">Number of Episodes</string>
+    <string-array name="tab_title">
+        <item>Movies</item>
+        <item>TV Shows</item>
+    </string-array>
+
+    <string name="hour">h </string>
+    <string name="minute">m</string>
+    <string name="load_more">Load More</string>
+    <string name="favorite">Favorite</string>
+    <string name="title_activity_favorite">Favorite List</string>
+
+    <string name="movie_liked">Movie Liked! Added to favorite list</string>
+    <string name="movie_disliked">Movie removed from favorite list</string>
+
+    <string name="movie_failed_liked">Movie failed add to favorite list</string>
+    <string name="movie_failed_disliked">Movie failed remove from favorite list</string>
+
+    <string name="tvshow_liked">TV Show Liked! Added to favorite list</string>
+    <string name="tvshow_disliked">TV Show removed from favorite list</string>
+
+    <string name="tvshow_failed_liked">TV Show failed add to favorite list</string>
+    <string name="tvshow_failed_disliked">TV Show failed remove from favorite list</string>
+
+</resources>

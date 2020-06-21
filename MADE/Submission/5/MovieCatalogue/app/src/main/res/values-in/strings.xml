@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="movie_description">Sinopsis</string>
+    <string name="movie_status">Status</string>
+    <string name="movie_score">Skor</string>
+    <string name="movie_language">Bahasa</string>
+    <string name="movie_finance">Keuangan</string>
+    <string name="movie_budget">Anggaran</string>
+    <string name="movie_revenue">Pendapatan</string>
+    <string name="tvshow_episode">Episode</string>
+    <string name="tvshow_firstrelease">Tanggal Rilis Perdana</string>
+    <string name="tvshow_last_release">Tanggal Rilis Terakhir</string>
+    <string name="tvshow_number_of_seasons">Jumlah Season</string>
+    <string name="tvshow_number_of_episodes">Jumlah Episode</string>
+    <string-array name="tab_title">
+        <item>Film</item>
+        <item>Acara TV</item>
+    </string-array>
+    <string name="hour">j </string>
+    <string name="minute">m</string>
+    <string name="load_more">Lebih Banyak</string>
+    <string name="favorite">Favorit</string>
+    <string name="title_activity_favorite">Daftar Favorit</string>
+
+    <string name="movie_liked">Film disukai! Film ditambahkan ke daftar favorit</string>
+    <string name="movie_disliked">Film dihapus dari daftar favorit</string>
+
+    <string name="tvshow_liked">Acara TV disukai! Acara TV ditambahkan ke daftar favorit</string>
+    <string name="tvshow_disliked">Acara TV dihapus dari daftar favorit</string>
+
+    <string name="setting">Pengaturan</string>
+    <string name="title_activity_settings">Pengaturan</string>
+    <string name="newest_notification_title">Dapatkan info terbaru</string>
+    <string name="newest_notification_summaryOn">Kamu akan mendapatkan pemberitahuan tentang film dan acara tv terbaru</string>
+    <string name="newest_notification_summaryOff">Kamu tidak akan mendapatkan pemberitahuan</string>
+
+    <string name="daily_notification_title">Dapatkan pemberitahuan harian</string>
+    <string name="daily_notification_summaryOn">Kamu akan mendapatkan pemberitahuan harian</string>
+    <string name="daily_notification_summaryOff">Kamu tidak akan mendapatkan pemberitahuan</string>
+
+    <string name="language_title">Bahasa</string>
+    <string name="language_summary">Ubah tampilan bahasa</string>
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+    <string name="title_activity_search">Cari Film dan Acara TV</string>
+    <string name="imagePosterMovie">Poster film</string>
+    <string name="backgroundMoviePoster">Latal poster film</string>
+    <string name="imagePosterTVShow">Poster acara TV</string>
+    <string name="backgroundTVShowPoster">Latar poster acara TV</string>
+    <string name="no_data">TIDAK ADA DATA</string>
+    <string name="search">Cari</string>
+
+    <string name="search_hint">Cari</string>
+
+    <string name="daily_message">Bosan? Coba lihat film dan acara TV yang menarik sekarang</string>
+    <string name="newest_message">Coba dicek. Ada film dan Acara TV baru lo</string>
+
+</resources>

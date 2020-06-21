@@ -1,0 +1,231 @@
+<array name="movies_drawable">
+	<item>@drawable/movie_poster_a_star</item>
+	<item>@drawable/movie_poster_aquaman</item>
+	<item>@drawable/movie_poster_avengerinfinity</item>
+	<item>@drawable/movie_poster_bohemian</item>
+	<item>@drawable/movie_poster_creed</item>
+	<item>@drawable/movie_poster_dragon</item>
+	<item>@drawable/movie_poster_glass</item>
+	<item>@drawable/movie_poster_mortalengine</item>
+	<item>@drawable/movie_poster_alita</item>
+	<item>@drawable/movie_poster_cold pursuit</item>
+	<item>@drawable/movie_poster_crimes</item>
+	<item>@drawable/movie_poster_marry_queen</item>
+	<item>@drawable/movie_poster_master_z</item>
+	<item>@drawable/movie_poster_overlord</item>
+	<item>@drawable/movie_poster_ralph</item>
+	<item>@drawable/movie_poster_robin_hood</item>
+	<item>@drawable/movie_poster_serenity</item>
+	<item>@drawable/movie_poster_spiderman</item>
+	<item>@drawable/movie_poster_t34</item>
+</array>
+<string-array name="movies_title">
+	<item>A Start Is Born</item>
+	<item>Aquaman</item>
+	<item>Avengers: Infinity War</item>
+	<item>Bohemian Rhapsody</item>
+	<item>Creed II</item>
+	<item>How to Train Your Dragon: The Hidden World</item>
+	<item>Glass</item>
+	<item>Mortal Engines</item>
+	<item>Alita: Battle Angel</item>
+	<item>Cold Pursuit</item>
+	<item>Fantastic Beasts: The Crimes of Grindelwald</item>
+	<item>Mary Queen of Scots</item>
+	<item>Master Z: IP Man Legacy</item>
+	<item>Overlord</item>
+	<item>Ralph Breaks The Internet</item>
+	<item>Robin Hood</item>
+	<item>Serenity</item>
+	<item>Spiderman Into The Spider-Verse</item>
+	<item>T-34</item>
+</string-array>
+<string-array name="movies_description">
+	<item>Musisi kawakan Jackson Maine menemukan - dan jatuh cinta dengan - artis yang sedang berjuang Ally. Dia baru saja menyerah pada mimpinya untuk menjadi besar sebagai penyanyi - sampai Jack membujuknya menjadi sorotan. Tetapi bahkan ketika karier Ally lepas landas, sisi pribadi dari hubungan mereka hancur, ketika Jack berjuang terus-menerus dengan setan-setan internalnya sendiri.</item>
+	<item>Dulunya merupakan rumah bagi peradaban paling maju di Bumi, Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan dunia. Yang menghalangi jalannya adalah Arthur Curry, saudara tiri manusia setengah manusia Orm dan pewaris sejati takhta.</item>
+	<item>Ketika Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayang-bayang kosmik: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih pasti.</item>
+	<item>Penyanyi Freddie Mercury, gitaris Brian May, drummer Roger Taylor dan gitaris bass John Deacon mengambil dunia musik dengan badai ketika mereka membentuk band rock 'n' roll Queen pada tahun 1970. Lagu-lagu hit menjadi klasik instan. Ketika gaya hidup Mercury yang semakin liar mulai lepas kendali, Queen segera menghadapi tantangan terbesarnya - menemukan cara untuk menjaga band bersama di tengah kesuksesan dan kelebihan.</item>
+	<item>Antara kewajiban pribadi dan pelatihan untuk pertarungan besar berikutnya melawan lawan yang memiliki ikatan dengan masa lalu keluarganya, Adonis Creed menghadapi tantangan hidupnya.</item>
+	<item>Ketika Hiccup memenuhi mimpinya untuk menciptakan utopia naga yang damai, penemuan Toothless 'dari pasangan yang tak teruji dan sukar ditangkap membuat Night Fury menjauh. Ketika bahaya meningkat di rumah dan pemerintahan Hiccup sebagai kepala desa diuji, baik naga dan pengendara harus membuat keputusan yang mustahil untuk menyelamatkan jenis mereka.</item>
+	<item>Dalam serangkaian pertemuan yang meningkat, mantan penjaga keamanan David Dunn menggunakan kemampuan supernaturalnya untuk melacak Kevin Wendell Crumb, seorang lelaki terganggu yang memiliki dua puluh empat kepribadian. Sementara itu, kehadiran bayangan Elia Price muncul sebagai seorang orkestra yang menyimpan rahasia penting bagi keduanya.</item>
+	<item>Beribu-ribu tahun di masa depan, kota-kota di bumi menjelajah dunia dengan roda besar, saling melahap dalam perjuangan untuk sumber daya yang semakin berkurang. Di salah satu kota traksi besar ini, London tua, Tom Natsworthy mengalami perjumpaan tak terduga dengan seorang wanita muda misterius dari daerah terlantar yang akan mengubah jalan hidupnya selamanya.</item>
+	<item>Ketika Alita terbangun tanpa ingatan tentang siapa dia di dunia masa depan yang tidak dia kenal, dia ditangkap oleh Ido, seorang dokter yang penuh kasih yang menyadari bahwa di suatu tempat dalam cangkang cyborg yang ditinggalkan ini adalah hati dan jiwa seorang wanita muda dengan luar biasa. lalu.</item>
+	<item>Kehidupan keluarga yang tenang di Nels Coxman, seorang sopir bajak salju, menjadi kacau setelah pembunuhan putranya. Nels memulai perburuan dendam untuk Viking, raja obat bius yang dianggapnya bertanggung jawab atas pembunuhan itu, menghilangkan rekan Viking satu per satu. Ketika Nels semakin dekat dengan Viking, tindakannya membawa konsekuensi yang lebih tak terduga dan keras, karena ia membuktikan bahwa balas dendam adalah semua dalam eksekusi.</item>
+	<item>Gellert Grindelwald telah lolos dari penjara dan mulai mengumpulkan pengikut untuk tujuan-nya - meninggikan penyihir di atas semua makhluk non-magis. Satu-satunya yang mampu menghentikannya adalah penyihir yang pernah ia sebut teman terdekatnya, Albus Dumbledore. Namun, Dumbledore perlu mencari bantuan dari penyihir yang pernah menggagalkan Grindelwald sebelumnya, mantan muridnya Newt Scamander, yang setuju untuk membantu, tidak menyadari bahaya yang ada di depan. Garis digambar saat cinta dan kesetiaan diuji, bahkan di antara teman dan keluarga yang paling sejati, di dunia sihir yang semakin terpecah.</item>
+	<item>Pada 1561, Mary Stuart, janda Raja Prancis, kembali ke Skotlandia, merebut kembali tahta yang sah dan mengancam masa depan Ratu Elizabeth I sebagai penguasa Inggris, karena ia memiliki klaim sah atas takhta Inggris. Pengkhianatan, pemberontakan, konspirasi, dan pilihan hidup mereka sendiri membahayakan Ratu. Mereka mengalami biaya kekuasaan yang pahit, sampai nasib tragis mereka akhirnya terpenuhi.</item>
+	<item>Menyusul kekalahannya oleh Master Ip, Cheung Tin Chi (Zhang) mencoba untuk membuat hidup dengan putranya yang masih muda di Hong Kong, menunggu meja di sebuah bar yang melayani ekspatriat. Tapi itu tidak lama sebelum campuran orang asing, uang, dan pemimpin triad menariknya sekali lagi ke pertarungan.</item>
+	<item>Prancis, Juni 1944. Menjelang D-Day, beberapa pasukan terjun payung Amerika jatuh di belakang garis musuh setelah pesawat mereka jatuh ketika dalam misi untuk menghancurkan menara radio di sebuah desa kecil di dekat pantai Normandia. Setelah mencapai target mereka, pasukan terjun payung yang masih hidup menyadari bahwa, selain melawan pasukan Nazi yang berpatroli di desa, mereka juga harus bertarung melawan sesuatu yang lain.</item>
+	<item>Penjahat video game, Ralph dan rekan-rekannya yang tidak sesuai, Vanellope von Schweetz harus mengambil risiko dengan melakukan perjalanan ke World Wide Web untuk mencari bagian pengganti untuk menyelamatkan video game Vanellope, "Sugar Rush." Di atas kepala mereka, Ralph dan Vanellope mengandalkan warga internet - netizen - untuk membantu menavigasi jalan mereka, termasuk seorang pengusaha bernama Yesss, yang merupakan algoritma kepala dan jantung dan jiwa dari situs pembuat tren BuzzzTube .</item>
+	<item>Seorang pejuang perang yang keras dan komandan Moornya melakukan pemberontakan yang berani melawan mahkota Inggris yang korup.</item>
+	<item>Baker Dill adalah kapten kapal nelayan yang memimpin tur di daerah tropis yang tenang yang disebut Pulau Plymouth. Namun, kehidupannya yang tenang hancur, ketika mantan istrinya, Karen, melacaknya dengan permohonan bantuan yang putus asa.</item>
+	<item>Miles Morales menyulap hidupnya antara menjadi siswa sekolah menengah dan menjadi manusia laba-laba. Ketika Wilson "Kingpin" Fisk menggunakan collider super, yang lain dari seberang Spider-Verse diangkut ke dimensi ini.</item>
+	<item>Pada tahun 1944, sekelompok tentara Rusia yang berani berhasil melarikan diri dari penawanan Jerman di tank T-34 legendaris yang setengah hancur. Itu adalah saat-saat keberanian yang tak terlupakan, pertarungan sengit, cinta yang tak terpatahkan, dan mukjizat legendaris.</item>
+</string-array>
+<string-array name="movies_score">
+	<item>75</item>
+	<item>68</item>
+	<item>83</item>
+	<item>81</item>
+	<item>67</item>
+	<item>76</item>
+	<item>65</item>
+	<item>6</item>
+	<item>68</item>
+	<item>54</item>
+	<item>69</item>
+	<item>66</item>
+	<item>52</item>
+	<item>66</item>
+	<item>72</item>
+	<item>58</item>
+	<item>52</item>
+	<item>84</item>
+	<item>5</item>
+</string-array>
+<string-array name="movies_status">
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+	<item>Dirilis</item>
+</string-array>
+<string-array name="movies_release_information">
+	<item>Theatrical:05-10-2018:USA;Digital:15-01-2019:USA;Physical:19-02-2019:USA</item>
+	<item>Theatrical:21-12-2018:USA;Digital:05-03-2019:USA;Physical:26-03-2019:USA</item>
+	<item>Premiere:23-04-2018:USA;Theatrical:27-04-2018:USA;Digital:31-07-2019:USA;Physical:14-08-2019:USA</item>
+	<item>Premiere:30-10-2018:USA;Theatrical:02-11-2018:USA;Physical:12-02-2019:USA</item>
+	<item>Premiere:14-11-2018:USA;Theatrical:21-11-2018:USA;Digital:17-05-2019:USA;Physical:05-03-2019:USA;Physical:17-05-2019:USA</item>
+	<item>Theatrical:22-02-2019:USA;Digital:07-05-2019:USA;Physical:21-05-2019:USA</item>
+	<item>Theatrical:18-01-2019:USA;Digital:02-04-2019:USA;Physical:16-04-2019:USA</item>
+	<item>Premiere:29-11-2018:USA;Theatrical:27-04-2018:USA;Digital:31-07-2019:USA;Physical:14-08-2019:USA</item>
+	<item>Theatrical:14-02-2019:USA;Digital:09-07-2019:USA;Physical:23-07-2019</item>
+	<item>Theatrical:08-02-2019:USA;Digital:30-04-2019:USA</item>
+	<item>Theatrical:16-11-2019:USA;Physical:12-03-2019:USA</item>
+	<item>Premiere:15-11-2018:USA;Theatrical (limited):07-12-2018:USA;Theatrical:21-12-2018:USA</item>
+	<item>Theatrical(limited):12-04-2019:USA</item>
+	<item>Premiere:22-09-2018:USA;Theatrical:09-11-2018:USA;Digital:05-02-2019:USA;Physical:19-08-2019:USA</item>
+	<item>Premiere:05-11-2018:USA;Theatrical:21-11-2018:USA;Digital:12-02-2019:USA;Physical:26-02-2019:USA</item>
+	<item>Theatrical:21-11-2018:USA;Digital:05-02-2019:USA</item>
+	<item>Theatrical:25-01-2019:USA</item>
+	<item>Premiere:01-12-2018:USA;Theatrical:14-12-2018:USA;Digital:26-02-2019:USA;Physical:19-03-2019:USA</item>
+	<item>Theatrical:27-12-2018:Russia</item>
+</string-array>
+<string-array name="movies_language">
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Kanton</item>
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Inggris</item>
+	<item>Bahasa Rusia</item>
+</string-array>
+<string-array name="movies_runtime">
+	<item>2j 15m</item>
+	<item>2j 24m</item>
+	<item>2j 29m</item>
+	<item>2j 15m</item>
+	<item>2j 10m</item>
+	<item>1j 44m</item>
+	<item>2j 9m</item>
+	<item>2j 9m</item>
+	<item>2j 2m</item>
+	<item>1j 59m</item>
+	<item>2j 14m</item>
+	<item>2j 4m</item>
+	<item>1j 47m</item>
+	<item>1j 50m</item>
+	<item>1j 52m</item>
+	<item>1j 56m</item>
+	<item>1j 46m</item>
+	<item>1j 57m</item>
+	<item>2j 19m</item>
+</string-array>
+<string-array name="movies_budget">
+	<item>36000000</item>
+	<item>160000000</item>
+	<item>300000000</item>
+	<item>52000000</item>
+	<item>50000000</item>
+	<item>129000000</item>
+	<item>20000000</item>
+	<item>100000000</item>
+	<item>170000000</item>
+	<item>60000000</item>
+	<item>200000000</item>
+	<item>25000000</item>
+	<item>-</item>
+	<item>38000000</item>
+	<item>175000000</item>
+	<item>100000000</item>
+	<item>25000000</item>
+	<item>90000000</item>
+	<item>10000000</item>
+</string-array>
+<string-array name="movies_revenue">
+	<item>433888866</item>
+	<item>1143689193</item>
+	<item>2046239637</item>
+	<item>835197710</item>
+	<item>137944327</item>
+	<item>517526875</item>
+	<item>246941965</item>
+	<item>104236467</item>
+	<item>404852543</item>
+	<item>59213931</item>
+	<item>653355901</item>
+	<item>37807625</item>
+	<item>-</item>
+	<item>41657844</item>
+	<item>529221154</item>
+	<item>73260114</item>
+	<item>8547045</item>
+	<item>375450417</item>
+	<item>-</item>
+</string-array>
+<string-array name="movies_genre">
+	<item>Drama; Romansa; Musik</item>
+	<item>Aksi, Petualangan, Fantasi</item>
+	<item>Petualangan; Aktin; Fantasi</item>
+	<item>Drama; Musik</item>
+	<item>Drama</item>
+	<item>Animasi, Keluarga, Petualangan</item>
+	<item>Thriller; Drama; Fiksi Ilmiah</item>
+	<item>Petualangan; Fantasi</item>
+	<item>Aksi, Fiksi Ilmiah, Thriller, Petualangan</item>
+	<item>Aksi; Drama; Kejahatan; Thriller</item>
+	<item>Petualangan; Fantasi; Keluarga</item>
+	<item>Drama; Sejarah</item>
+	<item>Tindakan</item>
+	<item>Horor, Perang, Fiksi Ilmiah</item>
+	<item>Keluarga; Animasi; Komedi; Petualangan</item>
+	<item>Petualangan, Aksi, Thriller</item>
+	<item>Thriller; Misteri</item>
+	<item>Aksi, Petualangan, Animasi, Fiksi Ilmiah, Komedi</item>
+	<item>Perang, Drama, Petualangan, Aksi</item>
+</string-array>
