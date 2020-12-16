@@ -48,6 +48,7 @@ const urlsToCache = [
     "./fonts/fa-solid-900.woff",
     "./fonts/fa-solid-900.ttf",
     "./fonts/fa-solid-900.svg",
+    "./",
     "./bundle.js",
     "./index.html",
     "./manifest.json"
