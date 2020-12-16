@@ -3,25 +3,77 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>My First PWA</title>
-    <meta name="description" content="World League" />
+    <title>Hermansyah</title>
+    <meta name="description" content="Hermansyah" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#00897B"/>
+    <link rel="manifest" href="./manifest.json">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="theme-color" content="#00897B" />
 </head>
 
-<body>
+<body class="grey lighten-4">
     <!-- Navigasi -->
-    <nav class="teal lighten-1" role="navigation">
-        <div class="nav-wrapper container">
-            <a href="#" class="brand-logo" id="logo-container">My App</a>
-            <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+    <header>
+        <nav class="grey darken-4" role="navigation">
+            <div class="nav-wrapper container">
+                <ul class="leftnav left hide-on-med-and-down"></ul>
+                <a href="#" class="brand-logo center" id="logo-container">
+                    <img class="logo-image" src="assets/images/logo.svg">
+                </a>
+                <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+                <ul class="rightnav right hide-on-med-and-down"></ul>
 
-            <ul class="topnav right hide-on-med-and-down"></ul>
-            <ul class="sidenav" id="nav-mobile"></ul>
-        </div>
-    </nav>
+                <ul class="sidenav" id="nav-mobile"></ul>
+            </div>
+        </nav>
+    </header>
     <!-- Akhir Navigasi -->
-    <div class="container" id="body-content"></div>
+    <main>
+        <div class="container" id="body-content"></div>
+    </main>
+
+    <footer class="page-footer grey darken-4">
+        <div class="footer-copyright">
+            <div class="container center">
+                <div class="row">
+                    <div class="col s12 m4 left">
+                        © 2020 Hermansyah
+                    </div>
+                    <div class="col s12 m4 landmark">
+                        Made in <img class="landmark-image" src="assets/images/landmark/sumbar.svg" alt=""> Padang
+                    </div>
+                    <div class="col s12 m4 right">
+                        <a href="https://github.com/hermansyah32" target="_blank"><img class="social-icon"
+                                src="assets/images/social/cib-github.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/hermansyah23" target="_blank"><img class="social-icon"
+                                src="assets/images/social/cib-linkedin.svg" alt=""></a>
+                        <a href="https://twitter.com/32hermansyah" target="_blank"><img class="social-icon"
+                                src="assets/images/social/cib-twitter.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // REGISTER SERVICE WORKER
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", function () {
+                navigator.serviceWorker
+                    .register("./service-worker.js")
+                    .then(function () {
+                        console.log("Pendaftaran ServiceWorker berhasil");
+                    })
+                    .catch(function () {
+                        console.log("Pendaftaran ServiceWorker gagal");
+                    });
+            });
+        } else {
+            console.log("ServiceWorker belum didukung browser ini.");
+        }
+    </script>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 {
-  "name": "world-league",
+  "name": "hermansyah",
   "version": "1.0.0",
-  "description": "",
+  "description": "Personal website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,11 +25,11 @@
     "webpack-assets-manifest": "^3.1.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
-    "webpack-merge": "^4.2.2"
+    "webpack-merge": "^4.2.2",
+    "worker-loader": "^2.0.0"
   },
   "dependencies": {
     "moment": "^2.27.0",
-    "regenerator-runtime": "^0.13.5",
-    "serviceworker-webpack-plugin": "^1.0.1"
+    "regenerator-runtime": "^0.13.5"
   }
 }

@@ -1,8 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
-const WebpackAssetsManifest = require("webpack-assets-manifest");
-const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
 
 module.exports = {
     entry: "./src/app.js",
@@ -58,16 +56,15 @@ module.exports = {
                     from: './src/favicon.ico',
                     to: 'favicon.ico'
                 },
+                {
+                    from: './src/scripts/worker/service-worker.js',
+                    to: './service-worker.js'
+                },
+                {
+                    from: './src/manifest.json',
+                    to: './manifest.json'
+                },
             ]
-        }),
-        /** Manifest */
-        new WebpackAssetsManifest({
-            output: './src/manifest.json',
-            merge: true
-        }),
-        /** Service Worker */
-        new ServiceWorkerWebpackPlugin({
-            entry: './src/scripts/worker/service-worker.js',
         }),
     ]
 }
