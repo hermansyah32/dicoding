@@ -87,12 +87,12 @@ function loadPage(page) {
 
 // Load button link
 function linkListener() {
-    document.querySelectorAll("a").forEach(function (element) {
+    document.querySelectorAll("li a").forEach(function (element) {
         element.addEventListener("click", event => {
             const sidenav = document.querySelector(".sidenav");
             M.Sidenav.getInstance(sidenav).close();
 
-            if (event.target.getAttribute("href").substr(0, 1) == "#") {
+            if (event.target.getAttribute("href").substr(0, 1) == "#" && !event.target.hasAttribute("data-target")) {
                 const page = event.target.getAttribute("href").substr(1);
                 console.log('page :>> ', page);
                 loadPage(page);
