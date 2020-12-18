@@ -1,6 +1,12 @@
+const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
+
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
+const {
+    CleanWebpackPlugin
+} = require('clean-webpack-plugin');
+const WebpackPwaManifest = require('webpack-pwa-manifest')
 
 module.exports = {
     entry: "./src/app.js",
@@ -56,15 +62,36 @@ module.exports = {
                     from: './src/favicon.ico',
                     to: 'favicon.ico'
                 },
-                {
-                    from: './src/scripts/worker/service-worker.js',
-                    to: './service-worker.js'
-                },
-                {
-                    from: './src/manifest.json',
-                    to: './manifest.json'
-                },
             ]
+        }),
+        new WebpackPwaManifest({
+            name: 'Hermansyah',
+            short_name: 'Hermansyah',
+            description: 'Hermansyah personal website',
+            background_color: '#000000',
+            crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
+            icons: [{
+                    src: path.resolve('src/icon/icon_original.png'),
+                    sizes: [96, 128, 192, 256, 384, 512], // multiple sizes
+                    destination: path.join('icons', 'ios'),
+                    ios: true
+                },
+                {
+                    src: path.resolve('src/icon/icon_original.png'),
+                    size: '1024x1024', // you can also use the specifications pattern
+                    destination: path.join('icons', 'ios'),
+                    ios: 'startup'
+                },
+                {
+                    src: path.resolve('src/icon/icon_original.png'),
+                    size: '1024x1024',
+                    destination: path.join('icons', 'android'),
+                    purpose: 'maskable'
+                }
+            ]
+        }),
+        new ServiceWorkerWebpackPlugin({
+            entry: path.join(__dirname, 'src/scripts/worker/service-worker.js'),
         }),
     ]
 }

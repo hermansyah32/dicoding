@@ -6,7 +6,6 @@
     <title>Hermansyah</title>
     <meta name="description" content="Hermansyah" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="./manifest.json">
     <meta name="theme-color" content="#00897B" />
 </head>
 
@@ -59,34 +58,17 @@
                         Made in <img class="landmark-image" src="assets/images/landmark/sumbar.svg" alt=""> Padang
                     </div>
                     <div class="col s12 m4 right">
-                        <a href="https://github.com/hermansyah32" target="_blank"><img class="social-icon"
-                                src="assets/images/social/cib-github.svg" alt=""></a>
-                        <a href="https://www.linkedin.com/in/hermansyah23" target="_blank"><img class="social-icon"
-                                src="assets/images/social/cib-linkedin.svg" alt=""></a>
-                        <a href="https://twitter.com/32hermansyah" target="_blank"><img class="social-icon"
-                                src="assets/images/social/cib-twitter.svg" alt=""></a>
+                        <a href="https://github.com/hermansyah32" target="_blank" rel="noopener"><img
+                                class="social-icon" src="assets/images/social/cib-github.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/hermansyah23" target="_blank" rel="noopener"><img
+                                class="social-icon" src="assets/images/social/cib-linkedin.svg" alt=""></a>
+                        <a href="https://twitter.com/32hermansyah" target="_blank" rel="noopener"><img
+                                class="social-icon" src="assets/images/social/cib-twitter.svg" alt=""></a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <script>
-        // REGISTER SERVICE WORKER
-        if ("serviceWorker" in navigator) {
-            window.addEventListener("load", function () {
-                navigator.serviceWorker
-                    .register("./service-worker.js")
-                    .then(function () {
-                        console.log("Pendaftaran ServiceWorker berhasil");
-                    })
-                    .catch(function () {
-                        console.log("Pendaftaran ServiceWorker gagal");
-                    });
-            });
-        } else {
-            console.log("ServiceWorker belum didukung browser ini.");
-        }
-    </script>
 </body>
 
 </html>
