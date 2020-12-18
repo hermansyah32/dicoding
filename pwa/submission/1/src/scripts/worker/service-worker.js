@@ -114,20 +114,20 @@ const urlsToCache = [
     "./fonts/poppins-v15-latin-regular.ttf",
     "./fonts/poppins-v15-latin-regular.woff",
     "./fonts/poppins-v15-latin-regular.woff2",
-    "./pages/about.html",
-    "./pages/home.html",
+    "./favicon.ico",
+    "./bundle.js",
+    "./",
+    "./index.html",
+    "./manifest.json",
     "./pages/leftnav.html",
     "./pages/rightnav.html",
     "./pages/nav-mobile.html",
-    "./pages/now.html",
+    "./pages/home.html",
     "./pages/portofolio.html",
     "./pages/writing.html",
+    "./pages/about.html",
+    "./pages/now.html",
     "./pages/contact.html",
-    "./favicon.ico",
-    "./",
-    "./bundle.js",
-    "./index.html",
-    "./manifest.json"
 ];
 
 self.addEventListener("install", event => {

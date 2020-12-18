@@ -412,6 +412,28 @@ main {
     filter: invert(91%) sepia(99%) saturate(2%) hue-rotate(308deg) brightness(108%) contrast(100%);
 }
 
+.loader-section {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+    text-align: center;
+    display: none;
+}
+
+.loader-section.active {
+    display: block !important;
+    margin: auto;
+}
+
+.preloader-wrapper {
+    margin: 40vh auto !important;
+}
+
 .subtitle {
     border-bottom: #424242 2px solid;
     font-size: 17px;

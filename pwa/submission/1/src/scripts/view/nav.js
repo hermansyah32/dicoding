@@ -87,7 +87,7 @@ function loadPage(page) {
 
 // Load button link
 function linkListener() {
-    document.querySelectorAll("li a").forEach(function (element) {
+    document.querySelectorAll("a").forEach(function (element) {
         element.addEventListener("click", event => {
             const sidenav = document.querySelector(".sidenav");
             M.Sidenav.getInstance(sidenav).close();
