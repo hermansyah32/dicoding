@@ -71,19 +71,19 @@ module.exports = {
             background_color: '#000000',
             crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
             icons: [{
-                    src: path.resolve('src/icon/icon_original.png'),
+                    src: path.resolve('src/icon/icon_black_original.png'),
                     sizes: [96, 128, 192, 256, 384, 512], // multiple sizes
                     destination: path.join('icons', 'ios'),
                     ios: true
                 },
                 {
-                    src: path.resolve('src/icon/icon_original.png'),
+                    src: path.resolve('src/icon/icon_black_original.png'),
                     size: '1024x1024', // you can also use the specifications pattern
                     destination: path.join('icons', 'ios'),
                     ios: 'startup'
                 },
                 {
-                    src: path.resolve('src/icon/icon_original.png'),
+                    src: path.resolve('src/icon/icon_black_original.png'),
                     size: '1024x1024',
                     destination: path.join('icons', 'android'),
                     purpose: 'maskable'
