@@ -17,10 +17,14 @@ pwa/*
 # MADE
 MADE/*
 !MADE/Submission
+MADE Kotlin/*
+!MADE Kotlin/Submission
 
 # JetPack
 JetPack/*
 !JetPack/Submission
+JetPack Kotlin/*
+!JetPack Kotlin/Submission
 
 #Android Pemula
 Android Pemula/*
